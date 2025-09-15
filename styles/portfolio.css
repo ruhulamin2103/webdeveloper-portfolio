@@ -27,15 +27,16 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 
 }
 nav li {
     list-style: none;
-    margin-right: 50px;
 }
 nav ul {
     display: flex;
     align-items: center;
+    gap: 50px;
 }
 nav a {
     text-decoration: none;
@@ -48,5 +49,17 @@ nav a {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-left: 50px;
+}
+/* header related styles */
+.header {
+    background-color: #fff8f3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 400px;
 }
